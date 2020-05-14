@@ -5,6 +5,12 @@ Created on Tue Apr 21 14:57:17 2020
 @author: etill
 """
 
+"""
+Edited by Luke Ciarelli
+lc3392
+Flask server code, edits include routes.
+"""
+
 #import statements
 from flask import Flask, render_template
 
@@ -17,7 +23,7 @@ def hello():
     return render_template("index.html")
 
 @app.route("/1006")
-def hey():
+def 1006():
     return render_template("1006/index.html")
     
 @app.route("/classes")
