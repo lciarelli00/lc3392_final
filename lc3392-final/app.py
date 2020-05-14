@@ -20,6 +20,14 @@ def hello():
 def hey():
     return render_template("1006/index.html")
     
+@app.route("/classes")
+def classes():
+    return render_template("classes/index.html")
+    
+@app.route("/music")
+def music():
+    return render_template("music/index.html")
+    
 #start the server
 if __name__ == "__main__":
     app.run()
